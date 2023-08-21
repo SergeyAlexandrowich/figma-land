@@ -1,0 +1,13 @@
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__board/header__board.css);
+@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/menu-list/menu-list.css);
+@import url(../blocks/menu-list/__link/menu-list__link.css);
+@import url(../blocks/header/__navigation-box/header__navigation-box.css);
+@import url(../blocks/white-link/white-link.css);
+@import url(../blocks/header/__burger/header__burger.css);
+
+
+
