@@ -1,0 +1,7 @@
+.header__buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  margin-top: 95px;
+}
