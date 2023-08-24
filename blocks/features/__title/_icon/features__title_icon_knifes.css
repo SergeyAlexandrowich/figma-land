@@ -1,0 +1,3 @@
+.features__title_icon_knifes::before{
+  content: url(../../../../images/features__knifes-icon.svg);
+}

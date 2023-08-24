@@ -16,6 +16,22 @@
 @import url(../blocks/white-link/_size/white-link_size_bigger.css);
 @import url(../blocks/header/__image/header__image.css);
 @import url(../blocks/header/__gradient/header__gradient.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/features/features.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_case/section-title_case_upper.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/features/__container/features__container.css);
+@import url(../blocks/features/__images/features__images.css);
+@import url(../blocks/features/__chat-image/features__chat-image.css);
+@import url(../blocks/features/__line-image/features__line-image.css);
+@import url(../blocks/features/__list/features__list.css);
+@import url(../blocks/features/__point/features__point.css);
+@import url(../blocks/features/__title/features__title.css);
+@import url(../blocks/features/__title/_icon/features__title_icon_knifes.css);
+@import url(../blocks/features/__title/_icon/features__title_icon_alien.css);
+@import url(../blocks/features/__title/_icon/features__title_icon_infinity.css);
+@import url(../blocks/features/__paragraph/features__paragraph.css);
 
 
 

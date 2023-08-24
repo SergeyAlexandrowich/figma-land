@@ -1,0 +1,8 @@
+.features__list{
+  width: 309px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 54px 0px;
+  list-style-type: none;
+}

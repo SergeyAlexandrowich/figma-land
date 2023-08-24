@@ -1,0 +1,3 @@
+.features__title_icon_alien::before{
+  content: url(../../../../images/features__alien-icon.svg);
+}

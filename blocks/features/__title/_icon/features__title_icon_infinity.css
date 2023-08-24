@@ -1,0 +1,3 @@
+.features__title_icon_infinity::before{
+  content: url(../../../../images/features__infinity-icon.svg);
+}
