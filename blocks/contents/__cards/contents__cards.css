@@ -1,0 +1,8 @@
+.contents__cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  margin-top: 54px;
+  padding:0px 16px;
+}

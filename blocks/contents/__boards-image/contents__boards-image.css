@@ -1,0 +1,9 @@
+.contents__boards-image{
+  background-image: url(../../../images/contents__boards-image.png);
+  width: 300px;
+  height: 236px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px 48.5px;
+  border-radius: 14px;
+}
