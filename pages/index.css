@@ -42,6 +42,22 @@
 @import url(../blocks/contents/__macbook-image/contents__macbook-image.css);
 @import url(../blocks/blue-button/_gap/blue-button_gap_smaller.css);
 @import url(../blocks/contents/__boards-image/contents__boards-image.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__item/_size/photo-grid__item_size_bigger.css);
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__logo-zone/partners__logo-zone.css);
+@import url(../blocks/partners/__logo/partners__logo.css);
+@import url(../blocks/white-link/_size/white-link_size_small.css);
+@import url(../blocks/advertisement/advertisement.css);
+@import url(../blocks/advertisement/__content/advertisement__content.css);
+@import url(../blocks/advertisement/__image/advertisement__image.css);
+@import url(../blocks/section-title/_align/section-title_align_left.css);
+@import url(../blocks/blue-button/_size/blue-button_size_huge.css);
+
+
 
 
 

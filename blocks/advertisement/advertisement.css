@@ -1,0 +1,9 @@
+.advertisement{
+  width: 1219px;
+  display: flex;
+  align-items: center;
+  padding: 61.5px 0px;
+  background: #343434;
+  border-radius: 33px;
+  position: relative;
+}
