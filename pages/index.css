@@ -56,6 +56,20 @@
 @import url(../blocks/advertisement/__image/advertisement__image.css);
 @import url(../blocks/section-title/_align/section-title_align_left.css);
 @import url(../blocks/blue-button/_size/blue-button_size_huge.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__adress/footer__adress.css);
+@import url(../blocks/footer/__number/footer__number.css);
+@import url(../blocks/footer/__social-media/footer__social-media.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+
+
 
 
 

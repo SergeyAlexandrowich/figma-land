@@ -1,0 +1,14 @@
+.footer__number{
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__number:before{
+  content: url(../../../images/footer__phone-icon.png);
+  margin-right: 10px;
+}

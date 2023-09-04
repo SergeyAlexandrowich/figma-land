@@ -1,0 +1,7 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin: 207px 0px 107px;
+  align-items: flex-start;
+}
