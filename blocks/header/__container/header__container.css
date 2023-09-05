@@ -5,9 +5,3 @@
   width: 100%;
   position: relative;
 }
-
-@media (max-width:480px){
-  .header__container{
-    padding:13.5px 30px;
-  }
-}

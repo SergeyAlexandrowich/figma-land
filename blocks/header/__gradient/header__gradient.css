@@ -5,3 +5,9 @@
   position: absolute;
   bottom: 0;
 }
+
+@media (max-width:480px){
+  .header__gradient{
+    height: 328px;
+  }
+}

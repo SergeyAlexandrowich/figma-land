@@ -6,3 +6,9 @@
   background-position: top center;
   margin-top: 35px;
 }
+
+@media (max-width:480px){
+  .header__image{
+    height: 453px;
+  }
+}

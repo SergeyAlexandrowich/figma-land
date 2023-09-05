@@ -5,3 +5,9 @@
   gap: 35px;
   margin-top: 95px;
 }
+
+@media (max-width:480px){
+  .header__buttons{
+    flex-direction: column;
+  }
+}
