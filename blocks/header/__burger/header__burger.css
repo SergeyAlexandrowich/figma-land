@@ -1,0 +1,14 @@
+.header__burger{
+  background-image: url(../../../images/header__burger-icon.png) ;
+  display: none;
+  width: 66px;
+  height: 53px;
+}
+
+
+@media (max-width:1024px){
+  .header__burger{
+    display:block;
+  }
+}
+

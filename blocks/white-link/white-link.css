@@ -9,3 +9,9 @@
 .white-link:hover{
   background-color: rgb(116, 112, 112);
 }
+
+@media (max-width:480px){
+  .white-link{
+    padding:13.5px 30px;
+  }
+}

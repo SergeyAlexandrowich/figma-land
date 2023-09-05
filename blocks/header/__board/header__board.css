@@ -1,7 +1,14 @@
 .header__board{
   display: flex;
-  width:70%;
+  width:100%;
   justify-content: space-between;
   align-items: center;
   padding: 30px 0px;
+  max-width: 1097px;
+}
+
+@media (max-width:1280px){
+  .header__board{
+    width: calc(100% - 48px);
+  }
 }
