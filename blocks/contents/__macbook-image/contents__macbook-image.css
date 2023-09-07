@@ -1,3 +1,16 @@
 .contents__macbook-image{
   margin: 0px 54px;
 }
+
+@media (max-width:480px){
+  .contents__macbook-image{
+    margin: 0px 20px;
+  }
+}
+
+@media (max-width:360px){
+  .contents__macbook-image{
+    margin: 0px 10px;
+    max-width: 280px;
+  }
+}

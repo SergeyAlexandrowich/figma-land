@@ -6,3 +6,9 @@
   margin-top: 54px;
   padding:0px 16px;
 }
+
+@media (max-width:1024px){
+  .contents__cards{
+    flex-direction:column;
+  }
+}

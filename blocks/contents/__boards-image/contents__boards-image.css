@@ -7,3 +7,16 @@
   margin: 0px 48.5px;
   border-radius: 14px;
 }
+
+@media (max-width:480px){
+  .contents__boards-image{
+    margin: 0px 16.5px;
+  }
+}
+
+@media (max-width:360px){
+  .contents__boards-image{
+    margin: 0px 10px;
+    max-width: 280px;
+  }
+}
