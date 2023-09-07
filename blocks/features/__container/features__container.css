@@ -4,3 +4,9 @@
   align-items: center;
   margin-top: 80px;
 }
+
+@media (max-width:1024px){
+  .features__container{
+    flex-direction: column;
+  }
+}
