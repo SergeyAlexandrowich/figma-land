@@ -6,4 +6,25 @@
   height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
+  bottom: 0;
+}
+
+@media (max-width:1280px){
+  .advertisement__image{
+    width: 485px;
+  }
+}
+
+
+@media (max-width:1024px){
+  .advertisement__image{
+    position: relative;
+    background-position: center;
+  }
+}
+
+@media (max-width:768px){
+  .advertisement__image{
+    width: 100%;
+  }
 }

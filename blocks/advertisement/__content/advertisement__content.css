@@ -2,3 +2,12 @@
   padding-left: 94px;
   width: 450px;
 }
+
+@media (max-width: 1024px){
+  .advertisement__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+}

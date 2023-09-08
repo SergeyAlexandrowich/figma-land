@@ -1,10 +1,27 @@
 .advertisement{
-  width: 1219px;
-  display: flex;
-  align-items: center;
+  max-width: 1219px;
   padding: 61.5px 0px;
   background: #343434;
   border-radius: 33px;
   position: relative;
   margin: 80px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px){
+  .advertisement{
+    flex-direction: column;
+    width: 100%;
+    gap: 106px;
+  }
+}
+
+@media (max-width: 768px){
+  .advertisement{
+    border-radius: 0px;
+    background-color: #1E1E1E;
+  }
 }
