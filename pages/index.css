@@ -50,6 +50,7 @@
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partners/__logo-zone/partners__logo-zone.css);
 @import url(../blocks/partners/__logo/partners__logo.css);
+@import url(../blocks/partners/__item/partners__item.css);
 @import url(../blocks/white-link/_size/white-link_size_small.css);
 @import url(../blocks/advertisement/advertisement.css);
 @import url(../blocks/advertisement/__content/advertisement__content.css);

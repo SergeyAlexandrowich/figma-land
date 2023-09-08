@@ -1,11 +1,27 @@
 .partners__logo-zone{
   margin: 0;
   padding: 0;
-  display: flex;
+  display: grid;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(6, 1fr);
   list-style-type:none;
   gap: 74px;
   padding: 50px 16px;
+  max-width: 831px;
 }
+
+@media (max-width:1024px){
+  .partners__logo-zone{
+    grid-template-columns: repeat(3, 1fr);
+    gap:50px;
+  }
+}
+
+@media (max-width:480px){
+  .partners__logo-zone{
+    grid-template-columns: repeat(2, 1fr);
+    gap:30px;
+  }
+}
+
+
