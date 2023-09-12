@@ -1,0 +1,6 @@
+.testimonials__customer{
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  align-items: center;
+}

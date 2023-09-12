@@ -1,0 +1,8 @@
+.testimonials__cards{
+  display:flex;
+  flex-wrap: wrap;
+  gap:20px;
+  width: calc(100% - 32px);
+  max-width:890px;
+  justify-content: center;
+}

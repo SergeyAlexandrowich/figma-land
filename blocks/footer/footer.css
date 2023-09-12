@@ -5,3 +5,9 @@
   margin: 207px 0px 107px;
   align-items: flex-start;
 }
+
+@media (max-width: 1024px){
+  .footer{
+    flex-direction: column;
+  }
+}

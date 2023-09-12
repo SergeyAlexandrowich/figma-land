@@ -1,0 +1,20 @@
+.testimonials__item{
+  max-width: 320px;
+  padding: 40px 70px 40px 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+@media (max-width:540px){
+  .testimonials__item{
+    max-width: 280px;
+    padding: 30px 50px 30px 30px;
+  }
+}
+
+@media (max-width:480px){
+  .testimonials__item{
+    max-width: 250px;
+    padding: 15px 30px 15px 15px;
+  }
+}

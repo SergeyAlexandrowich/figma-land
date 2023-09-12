@@ -1,0 +1,9 @@
+  .testimonials__paragraph{
+    margin: 0;
+    padding: 0;
+    max-width:320px;
+    line-height:24px;
+    font-size:16px;
+    font-weight: 400;
+    padding-top: 30px;
+    }
