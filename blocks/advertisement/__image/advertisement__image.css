@@ -1,17 +1,18 @@
 .advertisement__image{
   position: absolute;
   right: 0;
-  width: 585px;
+  max-width: 585px;
   background-image: url(../../../images/advertisement__image.png);
   height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
   bottom: 0;
+  width: 100%;
 }
 
 @media (max-width:1280px){
   .advertisement__image{
-    width: 485px;
+    max-width: 485px;
   }
 }
 
