@@ -14,3 +14,11 @@
     width: calc(100% - 32px);
   }
 }
+
+@media (max-width:480px){
+  .section-title_align_left{
+    font-size: 40px; 
+    width: 100%;
+    max-width: 280px;
+  }
+}

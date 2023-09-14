@@ -5,23 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
-  <title>Figma-land</title>
+  <title>Figma Land</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
       <section class="header__board">
-        <img class="header__logo" src="images/header__logo.png" alt="">
-        <div class="header__menu">
+        <img class="header__logo" src="images/header__logo.png" alt="Figma Land logo">
+        <nav class="header__menu">
           <ul class="menu-list">
             <li><a class="menu-list__link" href="">Home</a></li>
             <li><a class="menu-list__link" href="">Product</a></li>
             <li><a class="menu-list__link" href="">About</a></li>
             <li><a class="menu-list__link" href="">Contact</a></li>
           </ul>
-        </div>
+        </nav>
         <div class="header__navigation-box">
           <a class="white-link" href="">Login</a>
+          <!-- TO DO: rewrite as a button and add aria-label -->
           <div class="header__burger"></div>
         </div>
       </section>
@@ -43,7 +44,9 @@
         <h4 class="section-subtitle">Most calendars are designed for teams. Slate is designed for
           freelancers who want a simple way to plan their schedule.</h4>
         <div class="features__container">
+
           <div class="features__images">
+              <!-- TO DO: add alt -->
             <img class="features__chat-image" src="images/features__chat-image.png" alt="">
             <img class="features__line-image" src="images/features__line-image.png" alt="">
           </div>
@@ -73,6 +76,7 @@
             <p class="contents__paragraph">Ever wondered if you're too reliant
               on a client for work? Slate helps you identify .</p>
               <a class="blue-button blue-button_size_small blue-button_gap_bigger" href="">Sign up</a>
+               <!-- TO DO: add alt -->
               <img class="contents__macbook-image" src="images/contents__macbook-image.png" alt="">
           </div>
           <div class="contents__card">
@@ -80,6 +84,7 @@
             <p class="contents__paragraph">Ever wondered if you're too reliant
               on a client for work? Slate helps you identify .</p>
               <a class="blue-button blue-button_size_small blue-button_gap_smaller" href="">Try For Free</a>
+               <!-- TO DO:rewrite use the image -->
               <div class="contents__boards-image"></div>
           </div>
          </div>
@@ -89,6 +94,7 @@
         <h4 class="section-subtitle">We focus on ergonomics and meeting you where you work.
         It's only a keystroke away.</h4>
         <div class="photo-grid">
+           <!-- TO DO: add alt -->
           <img class="photo-grid__image" src="images/photo-grid__image1.png" alt="">
           <img class="photo-grid__image" src="images/photo-grid__image2.png" alt="">
           <img class="photo-grid__image" src="images/photo-grid__image3.png" alt="">
@@ -97,6 +103,7 @@
           <img class="photo-grid__image" src="images/photo-grid__image6.png" alt="">
           <img class="photo-grid__image" src="images/photo-grid__image7.png" alt="">
         </div>
+        <!-- TO DO: rewrite as a button -->
         <a class="white-link" href="">See more</a>
       </section>
       <section class="partners">
@@ -104,20 +111,24 @@
         <h4 class="section-subtitle">We focus on ergonomics and meeting you where you work.
         It's only a keystroke away.</h4>
         <ul class="partners__logo-zone">
+          <!-- TO DO: add arial-label and alt  -->
           <li class="partners__item"><a><img class="partners__logo" src="images/partners__aa-icon.png" alt=""></a></li>
-          <li class="partners__item"><a><img class="partners__logo" src="images/partners__apiary-icon.png" alt=""></a></li>
+          <li class="partners__item"><a aria-label="visit apiary website"><img class="partners__logo" src="images/partners__apiary-icon.png" alt=""></a></li>
           <li class="partners__item"><a><img class="partners__logo" src="images/partners__android-icon.png" alt=""></a></li>
           <li class="partners__item"><a><img class="partners__logo" src="images/partners__basecamp-icon.png" alt=""></a></li>
           <li class="partners__item"><a><img class="partners__logo" src="images/partners__airbnb-icon.png" alt=""></a></li>
           <li class="partners__item"><a><img class="partners__logo" src="images/partners__ibm-icon.png" alt=""></a></li>
         </ul>
+         <!-- TO DO: rewrite as a button -->
         <a class="white-link white-link_size_small" href="">All partners</a>
       </section>
       <section class="testimonials">
         <h2 class="section-title">Testimonials</h2>
         <div class="testimonials__cards">
+           <!-- TO DO: change item to li -->
           <div class="testimonials__item">
             <div class="testimonials__customer">
+               <!-- TO DO: add alt -->
               <img class="testimonials__image" src="images/testimonials__icon1.png" alt="">
               <div class="testimonials__text-content">
                 <h5 class="testimonials__subtitle">Claire Bell</h5>
@@ -184,6 +195,7 @@
           <h2 class="section-title section-title_align_left">OpenType feature and Variable fonts</h2>
           <a class="blue-button blue-button_size_huge" href="">Try For Free</a>
         </div>
+        <!-- TO DO:rewrite use the image -->
        <div class="advertisement__image"></div>
       </section>
     </main>
@@ -191,12 +203,14 @@
       <div class="footer__content">
         <div class="footer__list">
           <h2 class="footer__title">Fingertipe</h2>
-          <ul class="footer__links">
-            <li class="footer__item"><a class="footer__link" href="">Home</a></li>
-            <li class="footer__item"><a class="footer__link" href="">Examples</a></li>
-            <li class="footer__item"><a class="footer__link" href="">Pricing</a></li>
-            <li class="footer__item"><a class="footer__link" href="">Updates</a></li>
-          </ul>
+          <nav>
+            <ul class="footer__links">
+              <li class="footer__item"><a class="footer__link" href="">Home</a></li>
+              <li class="footer__item"><a class="footer__link" href="">Examples</a></li>
+              <li class="footer__item"><a class="footer__link" href="">Pricing</a></li>
+              <li class="footer__item"><a class="footer__link" href="">Updates</a></li>
+            </ul>
+          </nav>
         </div>
         <div class="footer__list">
           <h2 class="footer__title">Resources</h2>
@@ -218,10 +232,11 @@
         </div>
       </div>
       <div class="footer__contacts">
-        <h4 class="footer__adress">7480 Mockingbird Hill undefined</h4>
+        <h4 class="footer__adress">7480 Mockingbird Hill</h4>
         <h4 class="footer__number">(239)555-0108</h4>
         <div class="footer__social-media">
-          <a class="footer__icon" href=""><img  src="images/footer__twitter-icon.png" alt=""></a>
+           <!-- TO DO: add arial label and alt -->
+          <a aria-label="go to figma-land twitter" class="footer__icon" href=""><img  src="images/footer__twitter-icon.png" alt="twitter logo"></a>
           <a class="footer__icon" href=""><img  src="images/footer__facebook-icon.png" alt=""></a>
           <a class="footer__icon" href=""><img  src="images/footer__linkendin-icon.png" alt=""></a>
         </div>

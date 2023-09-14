@@ -12,3 +12,9 @@
     padding: 0;
   }
 }
+
+@media (max-width: 480px){
+  .advertisement__content{
+    max-width: 320px;
+  }
+}
