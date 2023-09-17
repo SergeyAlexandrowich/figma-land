@@ -4,6 +4,7 @@
   border: 1px solid white;
   padding: 13.5px 46px;
   transition: background-color 1s ease;
+  background-color: transparent;
 }
 
 .white-link:hover{
