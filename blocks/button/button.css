@@ -1,14 +1,10 @@
-.blue-button{
+.button{
   text-decoration: none;
-  color: white;
-  background-color: #4452FE;
   font-size: 17px;
   line-height: 25px;
   font-weight: 500;
+  color: white;
   padding: 20px 40px;
   transition: background-color 1s ease;
-}
-
-.blue-button:hover{
-  background-color:rgb(1, 1, 116) ;
+  border: none;
 }
