@@ -5,4 +5,5 @@
   width: calc(100% - 32px);
   max-width:890px;
   justify-content: center;
+  list-style-type: none;
 }
