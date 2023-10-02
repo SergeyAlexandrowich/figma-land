@@ -9,6 +9,6 @@
 }
 
 .footer__adress:before{
-  content: url(../../../images/footer__map-icon.png);
+  content: url(../../../images/footer__map-icon.svg);
   margin-right: 10px;
 }

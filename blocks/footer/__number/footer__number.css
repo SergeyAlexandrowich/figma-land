@@ -9,6 +9,6 @@
 }
 
 .footer__number:before{
-  content: url(../../../images/footer__phone-icon.png);
+  content: url(../../../images/footer__phone-icon.svg);
   margin-right: 10px;
 }
