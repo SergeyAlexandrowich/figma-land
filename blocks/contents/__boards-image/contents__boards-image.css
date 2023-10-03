@@ -4,6 +4,8 @@
   margin: 0px 48.5px;
   border-radius: 14px;
   object-fit: cover;
+  border-radius: 14px;
+  overflow: hidden;
 }
 
 @media (max-width:480px){
