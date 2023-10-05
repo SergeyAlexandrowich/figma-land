@@ -1,11 +1,11 @@
 .contents__boards-image{
-  background-image: url(../../../images/contents__boards-image.webp);
   width: 300px;
   height: 236px;
-  background-repeat: no-repeat;
-  background-position: center;
   margin: 0px 48.5px;
   border-radius: 14px;
+  object-fit: cover;
+  border-radius: 14px;
+  overflow: hidden;
 }
 
 @media (max-width:480px){
